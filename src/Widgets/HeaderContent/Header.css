@@ -1,0 +1,144 @@
+.header-content {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1920px;
+    gap: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 961px;
+    position: relative;
+    background: url(../../assets/img/bg.png);
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header-img {
+    position: absolute;
+    z-index: -2;
+    size: cover;
+}
+
+.header-title {
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 80px;
+    color: #fff;   
+    transition: .5s;
+}
+
+.header-paragrf {
+    transition: .5s;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #fff;
+    max-width: 960px;
+}
+
+.more-details {
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: #149a03;
+}
+
+.more-details span {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #fff;
+}
+
+.NextFilmClick {
+    position: absolute;
+    overflow: hidden;
+    display: flex;
+    border-radius: 10px;
+    bottom: 10px;
+    right: 10px;
+}
+
+.NextImg {
+    z-index: -2;
+    width: 288px;
+    height: 100px;
+}
+
+.NextFilmBtn {
+    background: #000;
+    display: flex;
+    gap: 15px;
+    padding: 14px 0 0 14px;
+    flex-direction: column;
+    justify-content: start;
+    min-width: 288px;
+}
+
+.Next {
+    text-align: start;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+
+.title-next {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 18px;
+    text-align: start;
+    color: #fff;
+    transition: .5s;
+}
+
+.shadow {
+    position: absolute;
+    z-index: -1;
+}
+
+.bottom-strip {
+    bottom: 0;
+    position: absolute;
+    height: 3px;
+    width: 0%;
+    background: #fff;
+    animation: loading-bar 5.5s linear infinite;
+}
+
+
+@keyframes loading-bar {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.bottom-strip__bg {
+    position: absolute;
+    height: 3px;
+    bottom: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.fade-in {
+  opacity: 1;
+  transition: opacity 0.5s ease-in;
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+}

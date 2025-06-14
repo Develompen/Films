@@ -1,0 +1,205 @@
+.main-title {
+    margin-top: 25px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 22px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 100px;
+}
+
+.film-cards__content {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.film__card {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 1px;
+    box-shadow: 0 4px 4px 0 #000;
+}
+
+.filmCardImg {
+    border-radius: 10px;
+}
+
+.main-film__info__content {
+    position: relative;
+    background: #000;
+    display: flex;
+    margin-top: 30px;
+    z-index: -1;
+}
+
+.film-info__content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 114px 0px 114px 50px;
+}
+
+.film-info__img {
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+
+.filmInfoShadow {
+    position: absolute;
+    right: 0;
+}
+
+.film-info__title {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 50px;
+    color: #fff;
+}
+
+.film-info__paragrf {
+    font-family: 'Montserrat';
+    max-width: 1050px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #fff;
+}
+
+.info-film__name {
+    display: flex;
+    gap: 30px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.peoples-info {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    max-width: 550px;
+    flex-wrap: wrap;
+}
+
+.people {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    padding: 1px 15px 1px 1px;
+    background: rgba(20, 20, 20, 0.5);
+}
+
+.people-name {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+    text-align: center;
+    color: #fff;
+}
+
+.cardBtn-more__details {
+    max-width: 190px;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px 15px;
+    background: #149a03;
+}
+
+.more__details-title {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #fff;
+}
+
+.series-cards__content {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.series__card {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 1px;
+    box-shadow: 0 4px 4px 0 #000;
+}
+
+.SeriesCardImg {
+    border-radius: 10px;
+}
+
+.rating-films {
+    margin-top: 50px;
+    padding: 30px 0 89px 100px;
+    background: #fff;
+}
+
+.main-rating__title {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.ratind {
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 100%;
+    color: #141414;
+}
+
+.ten {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60%;
+    color: #149a03;
+}
+
+.rating-films__cards {
+    display: flex;
+    margin-top: 88px;
+}
+
+.films__card {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 20px 15px -10px rgba(0, 0, 0, 0.25);
+    background: #141414;
+}
+
+.film-card__title {
+    padding: 140px 100px 140px 80px;
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 150px;
+    color: #fff;
+}
+
+.film-card__img {
+    position: relative; 
+}
+
+.ratingShadow {
+    left: 0;
+    position: absolute;
+}
